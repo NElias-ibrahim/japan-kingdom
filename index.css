@@ -1,0 +1,30 @@
+
+  a{
+    color: white;
+    text-decoration-line: none;
+
+}
+
+header{
+    background-color: rgb(59, 62, 70);
+    padding-top: 50px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 150%;
+    padding-bottom: 50px;
+    z-index: 1000;
+  
+  
+}
+
+
+.crumbs ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
