@@ -15,16 +15,27 @@ header{
     padding-bottom: 50px;
     z-index: 1000;
   
-  
 }
 
 
-.crumbs ul {
+.menu-list ul {
   list-style-type: none;
-  padding-left: 0;
 }
 
-.crumb {
-  display: inline-block;
+.menu-item{
+  display:flex;
+  justify-content:space-between;
+  gap: -10px;
 }
 
+.logo{
+  padding-left: 0px;
+}
+
+.menu-produit{
+  margin-left: -70px;
+}
+
+.menu-figurines{
+  margin-left: -50px;
+}
