@@ -28,8 +28,10 @@ header{
   gap: -10px;
 }
 
-.logo{
+.menu-logo{
   padding-left: 0px;
+  height: 1px;
+  width: 1px;
 }
 
 .menu-produit{
