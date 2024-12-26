@@ -1,4 +1,9 @@
 
+  body{
+    font-family: sans-serif;
+    font-weight: 175;
+    font-size: 14px;
+  }
   a{
     color: white;
     text-decoration-line: none;
@@ -12,7 +17,7 @@ header{
     top: 0; 
     left: 0; 
     width: 150%;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     z-index: 1000;
   
 }
@@ -23,21 +28,13 @@ header{
 }
 
 .menu-item{
-  display:flex;
-  justify-content:space-between;
-  gap: -10px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
 }
 
 .menu-logo{
-  padding-left: 0px;
-  height: 1px;
-  width: 1px;
-}
 
-.menu-produit{
-  margin-left: -70px;
 }
+ 
 
-.menu-figurines{
-  margin-left: -50px;
-}
