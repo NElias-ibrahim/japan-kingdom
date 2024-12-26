@@ -1,8 +1,4 @@
-.header{
-    height: 15vh;
-    background-color: #1c2228;
-    color: #ffffff;
-}
+
 
 .header h2{
     color: #ffffff;
@@ -143,6 +139,12 @@ button {
     background-color: #1c2228;
 
 }
+
+.menu-options ion-icon {
+    font-size: 24px;
+    vertical-align: middle;
+    color: #ffffff;
+  }
 
 @media screen {
     

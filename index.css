@@ -1,45 +1,62 @@
-
-  body{
-    font-family: sans-serif;
-    font-weight: 175;
-    font-size: 14px;
-  }
-  a{
-    color: white;
-    text-decoration-line: none;
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-header{
-  
-    background-color: rgb(59, 62, 70);
-    padding-top: 22px;
-    position: fixed;
-    top: 0; 
-    left: 0; 
-    width: 150%;
-    padding-bottom: 20px;
-    z-index: 1000;
-  
+header {
+  background-color: #1c2228;
+  padding: 10px 20px;
 }
 
-
-.menu-list ul {
-  list-style-type: none;
-}
-
-.menu-item{
-  width: 1190px;
+.menu-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  padding: 0 20px;
 }
 
-.menu-item > * {
-  flex: 1 1 auto;
+.menu-logo img {
+  max-height: max-content;
 }
 
-.menu-logo{
-padding-left: 20px;
+.menu-item {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  height: 13vh;
 }
- 
 
+.menu-item li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-options a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+svg {
+  fill: #333;
+}
+
+.menu-options ion-icon {
+  font-size: 24px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.ul.menu-item {
+  padding: none;
+}
