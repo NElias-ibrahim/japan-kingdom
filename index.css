@@ -1,3 +1,4 @@
+/* styles.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -5,19 +6,34 @@ body {
 
 header {
   background-color: #1c2228;
-  padding: 10px 20px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.7s ease;
+}
+
+header.header-shrink .menu-list {
+  height: 10vh; 
+}
+
+header .menu-logo img {
+  height: 7vh; 
+  transition: all 0.7s ease; 
+}
+
+header.header-shrink .menu-logo img {
+  height: 5vh;
 }
 
 .menu-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 15vh;
+  justify-content: center;
+  height: 15vh; 
   padding: 0 20px;
-}
-
-.menu-logo img {
-  max-height: max-content;
+  column-gap: 50px;
 }
 
 .menu-item {
@@ -27,8 +43,7 @@ header {
   margin: 0;
   align-items: center;
   padding: 0;
-  gap: 20px;
-  height: 13vh;
+  gap: 25px;
 }
 
 .menu-item li a {
@@ -39,24 +54,15 @@ header {
 .menu-options {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
+
 
 .menu-options a {
   text-decoration: none;
   color: #ffffff;
 }
 
-svg {
-  fill: #333;
-}
-
-.menu-options ion-icon {
-  font-size: 24px;
-  vertical-align: middle;
-  color: #ffffff;
-}
-
-.ul.menu-item {
-  padding: none;
+main {
+  margin-top: 15vh; 
 }
