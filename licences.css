@@ -2,16 +2,32 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    width: 300px;
-    height: 300px;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 .grid-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2vh;
+    width: 237px;
+    height: 94px;
+    margin-top:20px;
+    padding: 20px;
     background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    font-size: 2rem;
+    align-items: stretch;
+    justify-items: stretch;
+    
+}
+
+body {
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+    margin: auto;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ffffff;
 }
