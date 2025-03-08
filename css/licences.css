@@ -1,0 +1,74 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    align-items: start;
+    justify-items: center;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    width: 306px;
+    height: 133px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+button {
+    background-color: #717273;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.grid-item-tout-voir {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tout-voir {
+    background-color: #1c2228;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tout-voir:hover {
+    background-color: #218838;
+}
